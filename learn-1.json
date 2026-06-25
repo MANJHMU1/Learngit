@@ -1,0 +1,16 @@
+{
+ "Version": "2012-10-17",
+ "Statement": [
+   {
+     "Sid": "OptionalStatementID",
+     "Effect": "Allow or Deny",
+     "Action": "service:operation",
+     "Resource": "arn:aws:service:region:account-id:resource",
+     "Condition": {
+       "ConditionOperator": {
+         "Key": "Value"
+       }
+     }
+   }
+ ]
+}
