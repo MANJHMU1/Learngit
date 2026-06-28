@@ -2,7 +2,7 @@
  "Version": "2012-10-17",
  "Statement": [
    {
-     "Sid": "OptionalStatementID",
+     "Sid": "OptionalStatementIDTST",
      "Effect": "Allow or Deny",
      "Action": "service:operation",
      "Resource": "arn:aws:service:region:account-id:resource",
